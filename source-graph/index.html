@@ -15,7 +15,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
   </script>
   <!-- Favicon -->
-  <link href="https://gist.githubusercontent.com/astariul/c09af596e802e945d3032774e10e1047/raw/f693a2e2b65966494da082887bc4be2917f615e4/random_icon.svg" rel="icon"/>
+  <link href="../static/icononly_unbuffered.png" rel="icon"/>
   <!-- Custom Styles -->
   <link href="../static/package_styles.css" rel="stylesheet"/>
   <!-- Our JS -->
@@ -24,7 +24,7 @@
   <script defer="" src="../static/package_page.js">
   </script>
   <title>
-   Pypi - YourCompany
+   Pypi - LightStrikeAI
   </title>
  </head>
  <body>
@@ -38,23 +38,23 @@
       </path>
      </svg>
     </button>
-    public-hello
+    source-graph
     <span>
     </span>
     <span class="version" id="latest-version">
-     0.2
+     1.0.0
     </span>
     <span hidden="" id="latest-main-version">
-     0.2
+     1.0.0
     </span>
    </section>
    <pre hidden="" id="installdanger">
       <button class="danger-button" disabled="">
-        DANGER ! A higher version of <i>public-hello</i> already exists on PyPi
+        DANGER ! A higher version of <i>source-graph</i> already exists on PyPi
       </button>
     </pre>
    <pre id="installcmd">
-      <code>pip install public-hello --extra-index-url https://astariul.github.io/github-hosted-pypi/</code>
+      <code>pip install source-graph --extra-index-url https://lightstrikeai.github.io/lightstrike-pypi/</code>
     </pre>
    <hr/>
    <div class="row">
@@ -62,29 +62,19 @@
      <b>
       Project links
      </b>
-     <button id="repoHomepage" onclick="openLinkInNewTab('https://github.com/astariul/public-hello')">
+     <button id="repoHomepage" onclick="openLinkInNewTab('https://github.com/lightstrikeAI/source-graph')">
       Homepage
      </button>
      <p class="elem">
       <b>
        Author :
       </b>
-      Nicolas Remond
+      Lightstrike AI
      </p>
      <section class="versions" id="versions">
-      <div id="0.1" onclick="load_readme('0.1', scroll_to_div=true)">
-       <a href="git+https://github.com/astariul/public-hello@0.1#egg=public-hello-0.1">
-        0.1
-       </a>
-      </div>
-      <div class="" id="0.2" onclick="load_readme('0.2', scroll_to_div=true);">
-       <a href="git+https://github.com/astariul/public-hello@0.2#egg=public-hello-0.2">
-        0.2
-       </a>
-      </div>
-      <div class="prerelease" id="0.3.dev0" onclick="load_readme('0.3.dev0', scroll_to_div=true);">
-       <a href="git+https://github.com/astariul/public-hello@0.3.dev0#egg=public-hello-0.3.dev0">
-        0.3.dev0
+      <div id="1.0.0" onclick="load_readme('1.0.0', scroll_to_div=true)">
+       <a href="git+">
+        1.0.0
        </a>
       </div>
      </section>
